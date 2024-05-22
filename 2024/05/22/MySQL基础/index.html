@@ -6,26 +6,18 @@
   <meta name="keywords" content="">
   <meta name="description" content="MySQL基础 | My Blog">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="MySQL在console引入sql文件1source *****.sql  组合查询union 常用函数条件函数 if (条件, 条件为真 , 条件为假) case when ... then ... when ... then ... else ... end  日期函数 year(data) 取 年 month(data) 取 月 day(data) 取 日  123456789101112">
-<meta property="og:type" content="article">
-<meta property="og:title" content="MySQL基础">
-<meta property="og:url" content="http://example.com/2024/05/22/MySQL%E5%9F%BA%E7%A1%80/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://example.com/about/index.html">
 <meta property="og:site_name" content="My Blog">
-<meta property="og:description" content="MySQL在console引入sql文件1source *****.sql  组合查询union 常用函数条件函数 if (条件, 条件为真 , 条件为假) case when ... then ... when ... then ... else ... end  日期函数 year(data) 取 年 month(data) 取 月 day(data) 取 日  123456789101112">
-<meta property="og:locale">
-<meta property="og:image" content="http://example.com/MySQL.assets/4EF7B5DAE69AD54DE81C49D58020D7A4.png">
-<meta property="og:image" content="http://example.com/MySQL.assets/image-20220212170233406.png">
-<meta property="og:image" content="http://example.com/MySQL.assets/image-20220212171434185-16446577102162.png">
-<meta property="og:image" content="http://example.com/MySQL.assets/format,png.png">
-<meta property="og:image" content="http://example.com/MySQL.assets/format,png-16451044623752.png">
-<meta property="article:published_time" content="2024-05-22T05:20:05.000Z">
-<meta property="article:modified_time" content="2024-05-22T05:21:54.312Z">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-05-22T05:33:09.000Z">
+<meta property="article:modified_time" content="2024-05-22T05:33:09.801Z">
 <meta property="article:author" content="Shuo">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/MySQL.assets/4EF7B5DAE69AD54DE81C49D58020D7A4.png">
 
 
-<link rel="icon" href="/img/avatar.jpg">
+<link rel="icon" href="/img/avatar.png">
 
 <link href="/css/style.css?v=1.1.0" rel="stylesheet">
 
@@ -67,7 +59,7 @@
         <a href="/"
    class="avatar_target">
     <img class="avatar"
-         src="/img/avatar.jpg"/>
+         src="/img/avatar.png"/>
 </a>
 <div class="author">
     <span>Shuo</span>
@@ -76,20 +68,8 @@
 <div class="icon">
     
         
-            <a title="rss"
-               href="/atom.xml"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-rss"></use>
-                    </svg>
-                
-            </a>
-        
-    
-        
             <a title="github"
-               href="https://github.com/yelog"
+               href="https://github.com/Vocal-map"
                target="_blank">
                 
                     <svg class="iconfont-svg" aria-hidden="true">
@@ -100,15 +80,11 @@
         
     
         
-            <a title="facebook"
-               href="https://www.facebook.com/faker.tops"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-facebook"></use>
-                    </svg>
-                
-            </a>
+    
+        
+    
+        
+    
         
     
         
@@ -116,166 +92,80 @@
         
     
         
-            <a title="instagram"
-               href="https://www.facebook.com/faker.tops"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-instagram"></use>
-                    </svg>
-                
-            </a>
-        
     
         
-            <a title="reddit"
-               href="https://www.reddit.com/user/yelog/"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-reddit"></use>
-                    </svg>
-                
-            </a>
-        
     
-        
-            <a title="weibo"
-               href="http://weibo.com/u/2307534817"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-weibo"></use>
-                    </svg>
-                
-            </a>
-        
-    
-        
-            <a title="jianshu"
-               href="https://www.jianshu.com/u/ff56736de7cf"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-jianshu"></use>
-                    </svg>
-                
-            </a>
-        
-    
-        
-            <a title="zhihu"
-               href="https://www.zhihu.com/people/jaytp/activities"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-zhihu"></use>
-                    </svg>
-                
-            </a>
         
     
         
     
         
-            <a title="oschina"
-               href="https://my.oschina.net/yelog"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-oschina"></use>
-                    </svg>
-                
-            </a>
-        
     
-        
-    
-        
-            <a title="email"
-               href="mailto:jaytp@qq.com"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-email"></use>
-                    </svg>
-                
-            </a>
-        
-    
-        
-            <a title="qq"
-               href="http://wpa.qq.com/msgrd?v=3&uin=872336115&site=qq&menu=yes"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-qq"></use>
-                    </svg>
-                
-            </a>
-        
-    
-        
-            <a title="kugou"
-               href="https://www.kugou.com/"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-kugou"></use>
-                    </svg>
-                
-            </a>
-        
-    
-        
-            <a title="neteasemusic"
-               href="https://music.163.com/#/user/home?id=88151013"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-neteasemusic"></use>
-                    </svg>
-                
-            </a>
         
     
 </div>
 
 
 
+    <a class="more-menus">更多菜单</a>
+
 
 
 <ul>
     <li>
-        <div class="all active" data-rel="All">All
+        <div class="all active" data-rel="全部文章">全部文章
             
                 <small>(2)</small>
             
         </div>
     </li>
     
+        
+            
+                
+    <li>
+        <div data-rel="Hello Hexo">
+            
+            Hello Hexo
+            <small>(1)</small>
+        </div>
+        
+    </li>
+
+            
+        
+    
 </ul>
 <div class="left-bottom">
     <div class="menus">
         
             
+                <a class="dynamic-menu "
+                   target="_self"
+                   
+                   href="http://yelog.org/">叶落阁</a>
+        
             
-            
+                <a class="dynamic-menu "
+                   target="_blank"
+                        
+                   href="https://github.com/yelog">github</a>
+        
     </div>
     <div>
         
             <a class="about  hasFriend  site_url"
                
-               href="/about">About</a>
+               href="/about">关于</a>
         
         <a style="width: 50%"
                 
-                                           class="friends">Friends</a>
+                                           class="friends">友链</a>
         
     </div>
 </div>
 <input type="hidden" id="yelog_site_posts_number" value="2">
-
+<input type="hidden" id="yelog_site_word_count" value="6.3k">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
     <span id="busuanzi_value_site_pv"></span>
@@ -285,7 +175,7 @@
     <div class="nav-right">
         <div class="friends-area">
     <div class="friends-title">
-        Links
+        友情链接
         <i class="iconfont icon-left"></i>
     </div>
     <div class="friends-content">
@@ -299,20 +189,20 @@
         <div class="title-list">
     <div class="right-top">
         <div id="default-panel">
-            <i class="iconfont icon-search" data-title="search shortcut key i"></i>
-            <div class="right-title">All</div>
-            <i class="iconfont icon-file-tree" data-title="switch to outline view shortcut key w"></i>
+            <i class="iconfont icon-search" data-title="搜索 快捷键 i"></i>
+            <div class="right-title">全部文章</div>
+            <i class="iconfont icon-file-tree" data-title="切换到大纲视图 快捷键 w"></i>
         </div>
         <div id="search-panel">
-            <i class="iconfont icon-left" data-title="return"></i>
+            <i class="iconfont icon-left" data-title="返回"></i>
             <input id="local-search-input" autocomplete="off"/>
             <label class="border-line" for="input"></label>
-            <i class="iconfont icon-case-sensitive" data-title="case sensitive"></i>
-            <i class="iconfont icon-tag" data-title="label"></i>
+            <i class="iconfont icon-case-sensitive" data-title="大小写敏感"></i>
+            <i class="iconfont icon-tag" data-title="标签"></i>
         </div>
         <div id="outline-panel" style="display: none">
-            <div class="right-title">outline</div>
-            <i class="iconfont icon-list" data-title="switch to article list"></i>
+            <div class="right-title">大纲</div>
+            <i class="iconfont icon-list" data-title="切换到文章列表"></i>
         </div>
     </div>
 
@@ -320,15 +210,27 @@
     <input id="tag-search" />
     <div class="tag-wrapper">
         
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>blog</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>hexo</a>
+            </li>
+        
     </div>
 
 </div>
 
     
+    <div id="local-search-result">
+
+    </div>
+    
     <nav id="title-list-nav">
         
         
-        <a  class="All "
+        <a  class="全部文章 "
            href="/2024/05/22/MySQL%E5%9F%BA%E7%A1%80/"
            data-tag=""
            data-author="" >
@@ -337,9 +239,9 @@
         </a>
         
         
-        <a  class="All "
+        <a  class="全部文章 Hello Hexo "
            href="/2024/05/21/hello-world/"
-           data-tag=""
+           data-tag="hexo,blog"
            data-author="" >
             <span class="post-title" title="Hello World">Hello World</span>
             <span class="post-date" title="2024-05-21 21:21:01">2024/05/21</span>
@@ -355,7 +257,7 @@
 
     </div>
     <div class="hide-list">
-        <div class="semicircle" data-title="Toggle full screen shortcut key s">
+        <div class="semicircle" data-title="切换全屏 快捷键 s">
             <div class="brackets first"><</div>
             <div class="brackets">&gt;</div>
         </div>
@@ -375,14 +277,16 @@
     </div>
     <div class="article-meta">
         
-            Created At : <time class="date" title='Updated At: 2024-05-22 13:21:54'>2024-05-22 13:20</time>
+            发布时间 : <time class="date" title='最后更新: 2024-05-22 13:21:54'>2024-05-22 13:20</time>
         
     </div>
     <div class="article-meta">
         
+        <span>字数:6.3k</span>
+        
         
         <span id="busuanzi_container_page_pv">
-            Views 👀 :<span id="busuanzi_value_page_pv">
+            阅读 :<span id="busuanzi_value_page_pv">
                 <span class="count-comment">
                     <span class="spinner">
                       <div class="cube1"></div>
@@ -413,8 +317,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h1><h2 id="在console引入sql文件"><a href="#在console引入sql文件" class="headerlink" title="在console引入sql文件"></a>在console引入sql文件</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source <span class="operator">*</span><span class="operator">*</span><span class="operator">*</span><span class="operator">*</span><span class="operator">*</span>.<span class="keyword">sql</span></span><br></pre></td></tr></table></figure>
-
+        <h1 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h1><h2 id="在console引入sql文件"><a href="#在console引入sql文件" class="headerlink" title="在console引入sql文件"></a>在console引入sql文件</h2><pre><code class="sql">source *****.sql
+</code></pre>
 <h2 id="组合查询"><a href="#组合查询" class="headerlink" title="组合查询"></a>组合查询</h2><p><code>union</code></p>
 <h2 id="常用函数"><a href="#常用函数" class="headerlink" title="常用函数"></a>常用函数</h2><h3 id="条件函数"><a href="#条件函数" class="headerlink" title="条件函数"></a>条件函数</h3><ol>
 <li><code>if (条件, 条件为真 , 条件为假)</code></li>
@@ -425,12 +329,220 @@
 <li><code>month(data)</code> 取 月</li>
 <li><code>day(data)</code> 取 日</li>
 </ol>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- MySQL日期时间处理函数</span></span><br><span class="line"><span class="comment">-- 当前日期：2017-05-12</span></span><br><span class="line"><span class="keyword">SELECT</span> NOW() <span class="keyword">FROM</span> DUAL;<span class="comment">-- 当前日期时间：2017-05-12 11:41:47</span></span><br><span class="line"><span class="comment">-- 在MySQL里也存在和Oracle里类似的dual虚拟表：官方声明纯粹是为了满足select ... from...这一习惯问题，mysql会忽略对该表的引用。</span></span><br><span class="line"><span class="comment">-- 那么MySQL中就不用DUAL了吧。</span></span><br><span class="line"><span class="keyword">SELECT</span> NOW();<span class="comment">-- 当前日期时间：2017-05-12 11:41:55</span></span><br><span class="line"><span class="comment">-- 除了 now() 函数能获得当前的日期时间外，MySQL 中还有下面的函数：</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">CURRENT_TIMESTAMP</span>();<span class="comment">-- 2017-05-15 10:19:31</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">CURRENT_TIMESTAMP</span>;<span class="comment">-- 2017-05-15 10:19:51</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">LOCALTIME</span>();<span class="comment">-- 2017-05-15 10:20:00</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">LOCALTIME</span>;<span class="comment">-- 2017-05-15 10:20:10</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">LOCALTIMESTAMP</span>();<span class="comment">-- 2017-05-15 10:20:21(v4.0.6)</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">LOCALTIMESTAMP</span>;<span class="comment">-- 2017-05-15 10:20:30(v4.0.6)</span></span><br><span class="line"><span class="comment">-- 这些日期时间函数，都等同于 now()。鉴于 now() 函数简短易记，建议总是使用 now()来替代上面列出的函数。</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">SELECT</span> SYSDATE();<span class="comment">-- 当前日期时间：2017-05-12 11:42:03</span></span><br><span class="line"><span class="comment">-- sysdate() 日期时间函数跟 now() 类似，</span></span><br><span class="line"><span class="comment">-- 不同之处在于：now() 在执行开始时值就得到了;sysdate() 在函数执行时动态得到值。</span></span><br><span class="line"><span class="comment">-- 看下面的例子就明白了：</span></span><br><span class="line"><span class="keyword">SELECT</span> NOW(), SLEEP(<span class="number">3</span>), NOW();</span><br><span class="line"><span class="keyword">SELECT</span> SYSDATE(), SLEEP(<span class="number">3</span>), SYSDATE();</span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="keyword">SELECT</span> CURDATE();<span class="comment">-- 当前日期：2017-05-12</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">CURRENT_DATE</span>();<span class="comment">-- 当前日期：等同于 CURDATE()</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">CURRENT_DATE</span>;<span class="comment">-- 当前日期：等同于 CURDATE()</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">SELECT</span> CURTIME();<span class="comment">-- 当前时间：11:42:47</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">CURRENT_TIME</span>();<span class="comment">-- 当前时间：等同于 CURTIME()</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">CURRENT_TIME</span>;<span class="comment">-- 当前时间：等同于 CURTIME()</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- 获得当前 UTC 日期时间函数</span></span><br><span class="line"><span class="keyword">SELECT</span> UTC_TIMESTAMP(), UTC_DATE(), UTC_TIME()</span><br><span class="line"><span class="comment">-- MySQL 获得当前时间戳函数：current_timestamp, current_timestamp()</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">CURRENT_TIMESTAMP</span>, <span class="built_in">CURRENT_TIMESTAMP</span>();<span class="comment">-- 2017-05-15 10:32:21 | 2017-05-15 10:32:21</span></span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="comment">-- MySQL 日期时间 Extract（选取） 函数</span></span><br><span class="line"><span class="keyword">SET</span> <span class="variable">@dt</span> <span class="operator">=</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>;</span><br><span class="line"><span class="keyword">SELECT</span> <span class="type">DATE</span>(<span class="variable">@dt</span>);<span class="comment">-- 获取日期：2017-05-15</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="type">TIME</span>(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 获取时间：10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="keyword">YEAR</span>(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 获取年份</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="keyword">MONTH</span>(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 获取月份</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="keyword">DAY</span>(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 获取日</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="keyword">HOUR</span>(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 获取时</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="keyword">MINUTE</span>(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 获取分</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="keyword">SECOND</span>(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 获取秒</span></span><br><span class="line"><span class="keyword">SELECT</span> MICROSECOND(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 获取毫秒</span></span><br><span class="line"><span class="keyword">SELECT</span> QUARTER(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 获取季度</span></span><br><span class="line"><span class="keyword">SELECT</span> WEEK(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 20 (获取周)</span></span><br><span class="line"><span class="keyword">SELECT</span> WEEK(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>, <span class="number">7</span>);<span class="comment">-- ****** 测试此函数在MySQL5.6下无效</span></span><br><span class="line"><span class="keyword">SELECT</span> WEEKOFYEAR(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 同week()</span></span><br><span class="line"><span class="keyword">SELECT</span> DAYOFYEAR(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 135 (日期在年度中第几天)</span></span><br><span class="line"><span class="keyword">SELECT</span> DAYOFMONTH(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 5 (日期在月度中第几天)</span></span><br><span class="line"><span class="keyword">SELECT</span> DAYOFWEEK(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 2 (日期在周中第几天；周日为第一天)</span></span><br><span class="line"><span class="keyword">SELECT</span> WEEKDAY(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 0</span></span><br><span class="line"><span class="keyword">SELECT</span> WEEKDAY(<span class="string">&#x27;2017-05-21 10:37:14.123456&#x27;</span>);<span class="comment">-- 6(与dayofweek()都表示日期在周的第几天，只是参考标准不同，weekday()周一为第0天，周日为第6天)</span></span><br><span class="line"><span class="keyword">SELECT</span> YEARWEEK(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 201720(年和周)</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(<span class="keyword">YEAR</span> <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(<span class="keyword">MONTH</span> <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(<span class="keyword">DAY</span> <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(<span class="keyword">HOUR</span> <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(<span class="keyword">MINUTE</span> <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(<span class="keyword">SECOND</span> <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(MICROSECOND <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(QUARTER <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(WEEK <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(YEAR_MONTH <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(DAY_HOUR <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);</span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(DAY_MINUTE <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 151037(日时分)</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(DAY_SECOND <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 15103714(日时分秒)</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(DAY_MICROSECOND <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 15103714123456(日时分秒毫秒)</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(HOUR_MINUTE <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 1037(时分)</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(HOUR_SECOND <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 103714(时分秒)</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(HOUR_MICROSECOND <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 103714123456(日时分秒毫秒)</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(MINUTE_SECOND <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 3714(分秒)</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(MINUTE_MICROSECOND <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 3714123456(分秒毫秒)</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">EXTRACT</span>(SECOND_MICROSECOND <span class="keyword">FROM</span> <span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- 14123456(秒毫秒)</span></span><br><span class="line"><span class="comment">-- MySQL Extract() 函数除了没有date(),time() 的功能外，其他功能一应具全。</span></span><br><span class="line"><span class="comment">-- 并且还具有选取‘day_microsecond&#x27; 等功能。</span></span><br><span class="line"><span class="comment">-- 注意这里不是只选取 day 和 microsecond，而是从日期的 day 部分一直选取到 microsecond 部分。</span></span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="keyword">SELECT</span> DAYNAME(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- Monday(返回英文星期)</span></span><br><span class="line"><span class="keyword">SELECT</span> MONTHNAME(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>);<span class="comment">-- May(返回英文月份)</span></span><br><span class="line"><span class="keyword">SELECT</span> LAST_DAY(<span class="string">&#x27;2016-02-01&#x27;</span>);<span class="comment">-- 2016-02-29 (返回月份中最后一天) </span></span><br><span class="line"><span class="keyword">SELECT</span> LAST_DAY(<span class="string">&#x27;2016-05-01&#x27;</span>);<span class="comment">-- 2016-05-31</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- DATE_ADD(date,INTERVAL expr type) 从日期加上指定的时间间隔</span></span><br><span class="line"><span class="comment">-- type参数可参考：http://www.w3school.com.cn/sql/func_date_sub.asp</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_ADD(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">YEAR</span>);<span class="comment">-- 表示：2018-05-15 10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_ADD(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> QUARTER);<span class="comment">-- 表示：2017-08-15 10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_ADD(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">MONTH</span>);<span class="comment">-- 表示：2017-06-15 10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_ADD(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> WEEK);<span class="comment">-- 表示：2017-05-22 10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_ADD(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">DAY</span>);<span class="comment">-- 表示：2017-05-16 10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_ADD(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">HOUR</span>);<span class="comment">-- 表示：2017-05-15 11:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_ADD(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">MINUTE</span>);<span class="comment">-- 表示：2017-05-15 10:38:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_ADD(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">SECOND</span>);<span class="comment">-- 表示：2017-05-15 10:37:15.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_ADD(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> MICROSECOND);<span class="comment">-- 表示：2017-05-15 10:37:14.123457</span></span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="comment">-- DATE_SUB(date,INTERVAL expr type) 从日期减去指定的时间间隔</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">YEAR</span>);<span class="comment">-- 表示：2016-05-15 10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> QUARTER);<span class="comment">-- 表示：2017-02-15 10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">MONTH</span>);<span class="comment">-- 表示：2017-04-15 10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> WEEK);<span class="comment">-- 表示：2017-05-08 10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">DAY</span>);<span class="comment">-- 表示：2017-05-14 10:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">HOUR</span>);<span class="comment">-- 表示：2017-05-15 09:37:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">MINUTE</span>);<span class="comment">-- 表示：2017-05-15 10:36:14.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">SECOND</span>);<span class="comment">-- 表示：2017-05-15 10:37:13.123456</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(<span class="string">&#x27;2017-05-15 10:37:14.123456&#x27;</span>,<span class="type">INTERVAL</span> <span class="number">1</span> MICROSECOND);<span class="comment">-- 表示：2017-05-15 10:37:14.123455</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- 经特殊日期测试，DATE_SUB(date,INTERVAL expr type)可放心使用</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(CURDATE(),<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">DAY</span>);<span class="comment">-- 前一天：2017-05-11</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(CURDATE(),<span class="type">INTERVAL</span> <span class="number">-1</span> <span class="keyword">DAY</span>);<span class="comment">-- 后一天：2017-05-13</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(CURDATE(),<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">MONTH</span>);<span class="comment">-- 一个月前日期：2017-04-12</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(CURDATE(),<span class="type">INTERVAL</span> <span class="number">-1</span> <span class="keyword">MONTH</span>);<span class="comment">-- 一个月后日期：2017-06-12</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(CURDATE(),<span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">YEAR</span>);<span class="comment">-- 一年前日期：2016-05-12</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_SUB(CURDATE(),<span class="type">INTERVAL</span> <span class="number">-1</span> <span class="keyword">YEAR</span>);<span class="comment">-- 一年后日期：20178-06-12</span></span><br><span class="line"><span class="comment">-- MySQL date_sub() 日期时间函数 和 date_add() 用法一致，并且可以用INTERNAL -1 xxx的形式互换使用；</span></span><br><span class="line"><span class="comment">-- 另外，MySQL 中还有两个函数 subdate(), subtime()，建议，用 date_sub() 来替代。</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- MySQL 另类日期函数：period_add(P,N), period_diff(P1,P2)</span></span><br><span class="line"><span class="comment">-- 函数参数“P” 的格式为“YYYYMM” 或者 “YYMM”，第二个参数“N” 表示增加或减去 N month（月）。</span></span><br><span class="line"><span class="comment">-- MySQL period_add(P,N)：日期加/减去N月。</span></span><br><span class="line"><span class="keyword">SELECT</span> PERIOD_ADD(<span class="number">201705</span>,<span class="number">2</span>), PERIOD_ADD(<span class="number">201705</span>,<span class="number">-2</span>);<span class="comment">-- 201707  20170503</span></span><br><span class="line"><span class="comment">-- period_diff(P1,P2)：日期 P1-P2，返回 N 个月。</span></span><br><span class="line"><span class="keyword">SELECT</span> PERIOD_DIFF(<span class="number">201706</span>, <span class="number">201703</span>);<span class="comment">-- </span></span><br><span class="line"><span class="comment">-- datediff(date1,date2)：两个日期相减 date1 - date2，返回天数</span></span><br><span class="line"><span class="keyword">SELECT</span> DATEDIFF(<span class="string">&#x27;2017-06-05&#x27;</span>,<span class="string">&#x27;2017-05-29&#x27;</span>);<span class="comment">-- 7</span></span><br><span class="line"><span class="comment">-- TIMEDIFF(time1,time2)：两个日期相减 time1 - time2，返回 TIME 差值</span></span><br><span class="line"><span class="keyword">SELECT</span> TIMEDIFF(<span class="string">&#x27;2017-06-05 19:28:37&#x27;</span>, <span class="string">&#x27;2017-06-05 17:00:00&#x27;</span>);<span class="comment">-- 02:28:37</span></span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="comment">-- MySQL日期转换函数</span></span><br><span class="line"><span class="keyword">SELECT</span> TIME_TO_SEC(<span class="string">&#x27;01:00:05&#x27;</span>); <span class="comment">-- 3605</span></span><br><span class="line"><span class="keyword">SELECT</span> SEC_TO_TIME(<span class="number">3605</span>);<span class="comment">-- 01:00:05</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- MySQL （日期、天数）转换函数：to_days(date), from_days(days)</span></span><br><span class="line"><span class="keyword">SELECT</span> TO_DAYS(<span class="string">&#x27;0000-00-00&#x27;</span>); <span class="comment">-- NULL </span></span><br><span class="line"><span class="keyword">SELECT</span> TO_DAYS(<span class="string">&#x27;2017-06-05&#x27;</span>); <span class="comment">-- 736850</span></span><br><span class="line"><span class="keyword">SELECT</span> FROM_DAYS(<span class="number">0</span>);           <span class="comment">-- &#x27;0000-00-00&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> FROM_DAYS(<span class="number">736850</span>);      <span class="comment">-- &#x27;2017-06-05&#x27;</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- MySQL Str to Date （字符串转换为日期）函数：str_to_date(str, format)</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">SELECT</span> STR_TO_DATE(<span class="string">&#x27;06.05.2017 19:40:30&#x27;</span>, <span class="string">&#x27;%m.%d.%Y %H:%i:%s&#x27;</span>);<span class="comment">-- 2017-06-05 19:40:30</span></span><br><span class="line"><span class="keyword">SELECT</span> STR_TO_DATE(<span class="string">&#x27;06/05/2017&#x27;</span>, <span class="string">&#x27;%m/%d/%Y&#x27;</span>);                  <span class="comment">-- 2017-06-05</span></span><br><span class="line"><span class="keyword">SELECT</span> STR_TO_DATE(<span class="string">&#x27;2017/12/3&#x27;</span>,<span class="string">&#x27;%Y/%m/%d&#x27;</span>)		       <span class="comment">-- 2017-12-03</span></span><br><span class="line"><span class="keyword">SELECT</span> STR_TO_DATE(<span class="string">&#x27;20:09:30&#x27;</span>, <span class="string">&#x27;%h:%i:%s&#x27;</span>)		       <span class="comment">-- NULL(超过12时的小时用小写h，得到的结果为NULL)</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- 日期时间格式化</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_FORMAT(<span class="string">&#x27;2017-05-12 17:03:51&#x27;</span>, <span class="string">&#x27;%Y年%m月%d日 %H时%i分%s秒&#x27;</span>);<span class="comment">-- 2017年05月12日 17时03分51秒(具体需要什么格式的数据根据实际情况来;小写h为12小时制;)</span></span><br><span class="line"><span class="keyword">SELECT</span> TIME_FORMAT(<span class="string">&#x27;2017-05-12 17:03:51&#x27;</span>, <span class="string">&#x27;%Y年%m月%d日 %H时%i分%s秒&#x27;</span>);<span class="comment">-- 0000年00月00日 17时03分51秒(time_format()只能用于时间的格式化)</span></span><br><span class="line"><span class="comment">-- STR_TO_DATE()和DATE_FORMATE()为互逆操作</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- MySQL 获得国家地区时间格式函数：get_format()</span></span><br><span class="line"><span class="comment">-- MySQL get_format() 语法：get_format(date|time|datetime, &#x27;eur&#x27;|&#x27;usa&#x27;|&#x27;jis&#x27;|&#x27;iso&#x27;|&#x27;internal&#x27;</span></span><br><span class="line"><span class="comment">-- MySQL get_format() 用法的全部示例：</span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(<span class="type">DATE</span>,<span class="string">&#x27;usa&#x27;</span>);   	<span class="comment">-- &#x27;%m.%d.%Y&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(<span class="type">DATE</span>,<span class="string">&#x27;jis&#x27;</span>);   	<span class="comment">-- &#x27;%Y-%m-%d&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(<span class="type">DATE</span>,<span class="string">&#x27;iso&#x27;</span>);   	<span class="comment">-- &#x27;%Y-%m-%d&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(<span class="type">DATE</span>,<span class="string">&#x27;eur&#x27;</span>);   	<span class="comment">-- &#x27;%d.%m.%Y&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(<span class="type">DATE</span>,<span class="string">&#x27;internal&#x27;</span>);   	<span class="comment">-- &#x27;%Y%m%d&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(DATETIME,<span class="string">&#x27;usa&#x27;</span>);   	<span class="comment">-- &#x27;%Y-%m-%d %H.%i.%s&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(DATETIME,<span class="string">&#x27;jis&#x27;</span>);   	<span class="comment">-- &#x27;%Y-%m-%d %H:%i:%s&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(DATETIME,<span class="string">&#x27;iso&#x27;</span>);   	<span class="comment">-- &#x27;%Y-%m-%d %H:%i:%s&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(DATETIME,<span class="string">&#x27;eur&#x27;</span>);   	<span class="comment">-- &#x27;%Y-%m-%d %H.%i.%s&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(DATETIME,<span class="string">&#x27;internal&#x27;</span>); <span class="comment">-- &#x27;%Y%m%d%H%i%s&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(<span class="type">TIME</span>,<span class="string">&#x27;usa&#x27;</span>);   	<span class="comment">-- &#x27;%h:%i:%s %p&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(<span class="type">TIME</span>,<span class="string">&#x27;jis&#x27;</span>);   	<span class="comment">-- &#x27;%H:%i:%s&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(<span class="type">TIME</span>,<span class="string">&#x27;iso&#x27;</span>);   	<span class="comment">-- &#x27;%H:%i:%s&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(<span class="type">TIME</span>,<span class="string">&#x27;eur&#x27;</span>);   	<span class="comment">-- &#x27;%H.%i.%s&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> GET_FORMAT(<span class="type">TIME</span>,<span class="string">&#x27;internal&#x27;</span>);     <span class="comment">-- &#x27;%H%i%s&#x27;</span></span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="comment">-- MySQL 拼凑日期、时间函数：makdedate(year,dayofyear), maketime(hour,minute,second)</span></span><br><span class="line"><span class="keyword">SELECT</span> MAKEDATE(<span class="number">2017</span>,<span class="number">31</span>);   <span class="comment">-- &#x27;2017-01-31&#x27; </span></span><br><span class="line"><span class="keyword">SELECT</span> MAKEDATE(<span class="number">2017</span>,<span class="number">32</span>);   <span class="comment">-- &#x27;2017-02-01&#x27;</span></span><br><span class="line"><span class="keyword">SELECT</span> MAKETIME(<span class="number">19</span>,<span class="number">52</span>,<span class="number">35</span>);  <span class="comment">-- &#x27;19:52:35&#x27;</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- MySQL 时区（timezone）转换函数：convert_tz(dt,from_tz,to_tz)</span></span><br><span class="line"><span class="keyword">SELECT</span> CONVERT_TZ(<span class="string">&#x27;2017-06-05 19:54:12&#x27;</span>, <span class="string">&#x27;+08:00&#x27;</span>, <span class="string">&#x27;+00:00&#x27;</span>); <span class="comment">-- 2017-06-05 11:54:12</span></span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="comment">-- MySQL （Unix 时间戳、日期）转换函数</span></span><br><span class="line"><span class="comment">-- unix_timestamp(), unix_timestamp(date), from_unixtime(unix_timestamp), from_unixtime(unix_timestamp,format)</span></span><br><span class="line"><span class="comment">-- 将具体时间时间转为timestamp</span></span><br><span class="line"><span class="keyword">SELECT</span> UNIX_TIMESTAMP();<span class="comment">-- 当前时间的时间戳：1494815779</span></span><br><span class="line"><span class="keyword">SELECT</span> UNIX_TIMESTAMP(<span class="string">&#x27;2017-05-15&#x27;</span>);<span class="comment">-- 指定日期的时间戳：1494777600</span></span><br><span class="line"><span class="keyword">SELECT</span> UNIX_TIMESTAMP(<span class="string">&#x27;2017-05-15 10:37:14&#x27;</span>);<span class="comment">-- 指定日期时间的时间戳：1494815834</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- 将时间戳转为具体时间</span></span><br><span class="line"><span class="keyword">SELECT</span> FROM_UNIXTIME(<span class="number">1494815834</span>);<span class="comment">-- 2017-05-15 10:37:14</span></span><br><span class="line"><span class="keyword">SELECT</span> FROM_UNIXTIME(<span class="number">1494815834</span>, <span class="string">&#x27;%Y年%m月%d日 %h时%分:%s秒&#x27;</span>);<span class="comment">-- 获取时间戳对应的格式化日期时间</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">-- MySQL 时间戳（timestamp）转换、增、减函数</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="type">TIMESTAMP</span>(<span class="string">&#x27;2017-05-15&#x27;</span>);<span class="comment">-- 2017-05-15 00:00:00</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="type">TIMESTAMP</span>(<span class="string">&#x27;2017-05-15 08:12:25&#x27;</span>, <span class="string">&#x27;01:01:01&#x27;</span>);<span class="comment">-- 2017-05-15 09:13:26</span></span><br><span class="line"><span class="keyword">SELECT</span> DATE_ADD(<span class="string">&#x27;2017-05-15 08:12:25&#x27;</span>, <span class="type">INTERVAL</span> <span class="number">1</span> <span class="keyword">DAY</span>);<span class="comment">-- 2017-05-16 08:12:25</span></span><br><span class="line"><span class="keyword">SELECT</span> TIMESTAMPADD(<span class="keyword">DAY</span>, <span class="number">1</span>, <span class="string">&#x27;2017-05-15 08:12:25&#x27;</span>);<span class="comment">-- 2017-05-16 08:12:25; MySQL timestampadd() 函数类似于 date_add()。</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">SELECT</span> TIMESTAMPDIFF(<span class="keyword">YEAR</span>, <span class="string">&#x27;2017-06-01&#x27;</span>, <span class="string">&#x27;2016-05-15&#x27;</span>);<span class="comment">-- -1</span></span><br><span class="line"><span class="keyword">SELECT</span> TIMESTAMPDIFF(<span class="keyword">MONTH</span>, <span class="string">&#x27;2017-06-01&#x27;</span>, <span class="string">&#x27;2016-06-15&#x27;</span>);<span class="comment">-- -11</span></span><br><span class="line"><span class="keyword">SELECT</span> TIMESTAMPDIFF(<span class="keyword">DAY</span>, <span class="string">&#x27;2017-06-01&#x27;</span>, <span class="string">&#x27;2016-06-15&#x27;</span>);<span class="comment">-- -351</span></span><br><span class="line"><span class="keyword">SELECT</span> TIMESTAMPDIFF(<span class="keyword">HOUR</span>, <span class="string">&#x27;2017-06-01 08:12:25&#x27;</span>, <span class="string">&#x27;2016-06-15 00:00:00&#x27;</span>);<span class="comment">-- -8432</span></span><br><span class="line"><span class="keyword">SELECT</span> TIMESTAMPDIFF(<span class="keyword">MINUTE</span>, <span class="string">&#x27;2017-06-01 08:12:25&#x27;</span>, <span class="string">&#x27;2016-06-15 00:00:00&#x27;</span>);<span class="comment">-- -505932</span></span><br><span class="line"><span class="keyword">SELECT</span> TIMESTAMPDIFF(<span class="keyword">SECOND</span>, <span class="string">&#x27;2017-06-01 08:12:25&#x27;</span>, <span class="string">&#x27;2016-06-15 00:00:00&#x27;</span>);<span class="comment">-- -30355945</span></span><br></pre></td></tr></table></figure>
-
+<pre><code class="sql">-- MySQL日期时间处理函数
+-- 当前日期：2017-05-12
+SELECT NOW() FROM DUAL;-- 当前日期时间：2017-05-12 11:41:47
+-- 在MySQL里也存在和Oracle里类似的dual虚拟表：官方声明纯粹是为了满足select ... from...这一习惯问题，mysql会忽略对该表的引用。
+-- 那么MySQL中就不用DUAL了吧。
+SELECT NOW();-- 当前日期时间：2017-05-12 11:41:55
+-- 除了 now() 函数能获得当前的日期时间外，MySQL 中还有下面的函数：
+SELECT CURRENT_TIMESTAMP();-- 2017-05-15 10:19:31
+SELECT CURRENT_TIMESTAMP;-- 2017-05-15 10:19:51
+SELECT LOCALTIME();-- 2017-05-15 10:20:00
+SELECT LOCALTIME;-- 2017-05-15 10:20:10
+SELECT LOCALTIMESTAMP();-- 2017-05-15 10:20:21(v4.0.6)
+SELECT LOCALTIMESTAMP;-- 2017-05-15 10:20:30(v4.0.6)
+-- 这些日期时间函数，都等同于 now()。鉴于 now() 函数简短易记，建议总是使用 now()来替代上面列出的函数。
+ 
+SELECT SYSDATE();-- 当前日期时间：2017-05-12 11:42:03
+-- sysdate() 日期时间函数跟 now() 类似，
+-- 不同之处在于：now() 在执行开始时值就得到了;sysdate() 在函数执行时动态得到值。
+-- 看下面的例子就明白了：
+SELECT NOW(), SLEEP(3), NOW();
+SELECT SYSDATE(), SLEEP(3), SYSDATE();
+ 
+ 
+SELECT CURDATE();-- 当前日期：2017-05-12
+SELECT CURRENT_DATE();-- 当前日期：等同于 CURDATE()
+SELECT CURRENT_DATE;-- 当前日期：等同于 CURDATE()
+ 
+SELECT CURTIME();-- 当前时间：11:42:47
+SELECT CURRENT_TIME();-- 当前时间：等同于 CURTIME()
+SELECT CURRENT_TIME;-- 当前时间：等同于 CURTIME()
+ 
+-- 获得当前 UTC 日期时间函数
+SELECT UTC_TIMESTAMP(), UTC_DATE(), UTC_TIME()
+-- MySQL 获得当前时间戳函数：current_timestamp, current_timestamp()
+SELECT CURRENT_TIMESTAMP, CURRENT_TIMESTAMP();-- 2017-05-15 10:32:21 | 2017-05-15 10:32:21
+ 
+ 
+-- MySQL 日期时间 Extract（选取） 函数
+SET @dt = &#39;2017-05-15 10:37:14.123456&#39;;
+SELECT DATE(@dt);-- 获取日期：2017-05-15
+SELECT TIME(&#39;2017-05-15 10:37:14.123456&#39;);-- 获取时间：10:37:14.123456
+SELECT YEAR(&#39;2017-05-15 10:37:14.123456&#39;);-- 获取年份
+SELECT MONTH(&#39;2017-05-15 10:37:14.123456&#39;);-- 获取月份
+SELECT DAY(&#39;2017-05-15 10:37:14.123456&#39;);-- 获取日
+SELECT HOUR(&#39;2017-05-15 10:37:14.123456&#39;);-- 获取时
+SELECT MINUTE(&#39;2017-05-15 10:37:14.123456&#39;);-- 获取分
+SELECT SECOND(&#39;2017-05-15 10:37:14.123456&#39;);-- 获取秒
+SELECT MICROSECOND(&#39;2017-05-15 10:37:14.123456&#39;);-- 获取毫秒
+SELECT QUARTER(&#39;2017-05-15 10:37:14.123456&#39;);-- 获取季度
+SELECT WEEK(&#39;2017-05-15 10:37:14.123456&#39;);-- 20 (获取周)
+SELECT WEEK(&#39;2017-05-15 10:37:14.123456&#39;, 7);-- ****** 测试此函数在MySQL5.6下无效
+SELECT WEEKOFYEAR(&#39;2017-05-15 10:37:14.123456&#39;);-- 同week()
+SELECT DAYOFYEAR(&#39;2017-05-15 10:37:14.123456&#39;);-- 135 (日期在年度中第几天)
+SELECT DAYOFMONTH(&#39;2017-05-15 10:37:14.123456&#39;);-- 5 (日期在月度中第几天)
+SELECT DAYOFWEEK(&#39;2017-05-15 10:37:14.123456&#39;);-- 2 (日期在周中第几天；周日为第一天)
+SELECT WEEKDAY(&#39;2017-05-15 10:37:14.123456&#39;);-- 0
+SELECT WEEKDAY(&#39;2017-05-21 10:37:14.123456&#39;);-- 6(与dayofweek()都表示日期在周的第几天，只是参考标准不同，weekday()周一为第0天，周日为第6天)
+SELECT YEARWEEK(&#39;2017-05-15 10:37:14.123456&#39;);-- 201720(年和周)
+ 
+SELECT EXTRACT(YEAR FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(MONTH FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(DAY FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(HOUR FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(MINUTE FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(SECOND FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(MICROSECOND FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(QUARTER FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(WEEK FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(YEAR_MONTH FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(DAY_HOUR FROM &#39;2017-05-15 10:37:14.123456&#39;);
+SELECT EXTRACT(DAY_MINUTE FROM &#39;2017-05-15 10:37:14.123456&#39;);-- 151037(日时分)
+SELECT EXTRACT(DAY_SECOND FROM &#39;2017-05-15 10:37:14.123456&#39;);-- 15103714(日时分秒)
+SELECT EXTRACT(DAY_MICROSECOND FROM &#39;2017-05-15 10:37:14.123456&#39;);-- 15103714123456(日时分秒毫秒)
+SELECT EXTRACT(HOUR_MINUTE FROM &#39;2017-05-15 10:37:14.123456&#39;);-- 1037(时分)
+SELECT EXTRACT(HOUR_SECOND FROM &#39;2017-05-15 10:37:14.123456&#39;);-- 103714(时分秒)
+SELECT EXTRACT(HOUR_MICROSECOND FROM &#39;2017-05-15 10:37:14.123456&#39;);-- 103714123456(日时分秒毫秒)
+SELECT EXTRACT(MINUTE_SECOND FROM &#39;2017-05-15 10:37:14.123456&#39;);-- 3714(分秒)
+SELECT EXTRACT(MINUTE_MICROSECOND FROM &#39;2017-05-15 10:37:14.123456&#39;);-- 3714123456(分秒毫秒)
+SELECT EXTRACT(SECOND_MICROSECOND FROM &#39;2017-05-15 10:37:14.123456&#39;);-- 14123456(秒毫秒)
+-- MySQL Extract() 函数除了没有date(),time() 的功能外，其他功能一应具全。
+-- 并且还具有选取‘day_microsecond&#39; 等功能。
+-- 注意这里不是只选取 day 和 microsecond，而是从日期的 day 部分一直选取到 microsecond 部分。
+ 
+ 
+SELECT DAYNAME(&#39;2017-05-15 10:37:14.123456&#39;);-- Monday(返回英文星期)
+SELECT MONTHNAME(&#39;2017-05-15 10:37:14.123456&#39;);-- May(返回英文月份)
+SELECT LAST_DAY(&#39;2016-02-01&#39;);-- 2016-02-29 (返回月份中最后一天) 
+SELECT LAST_DAY(&#39;2016-05-01&#39;);-- 2016-05-31
+ 
+-- DATE_ADD(date,INTERVAL expr type) 从日期加上指定的时间间隔
+-- type参数可参考：http://www.w3school.com.cn/sql/func_date_sub.asp
+SELECT DATE_ADD(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 YEAR);-- 表示：2018-05-15 10:37:14.123456
+SELECT DATE_ADD(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 QUARTER);-- 表示：2017-08-15 10:37:14.123456
+SELECT DATE_ADD(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 MONTH);-- 表示：2017-06-15 10:37:14.123456
+SELECT DATE_ADD(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 WEEK);-- 表示：2017-05-22 10:37:14.123456
+SELECT DATE_ADD(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 DAY);-- 表示：2017-05-16 10:37:14.123456
+SELECT DATE_ADD(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 HOUR);-- 表示：2017-05-15 11:37:14.123456
+SELECT DATE_ADD(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 MINUTE);-- 表示：2017-05-15 10:38:14.123456
+SELECT DATE_ADD(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 SECOND);-- 表示：2017-05-15 10:37:15.123456
+SELECT DATE_ADD(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 MICROSECOND);-- 表示：2017-05-15 10:37:14.123457
+ 
+ 
+-- DATE_SUB(date,INTERVAL expr type) 从日期减去指定的时间间隔
+SELECT DATE_SUB(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 YEAR);-- 表示：2016-05-15 10:37:14.123456
+SELECT DATE_SUB(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 QUARTER);-- 表示：2017-02-15 10:37:14.123456
+SELECT DATE_SUB(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 MONTH);-- 表示：2017-04-15 10:37:14.123456
+SELECT DATE_SUB(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 WEEK);-- 表示：2017-05-08 10:37:14.123456
+SELECT DATE_SUB(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 DAY);-- 表示：2017-05-14 10:37:14.123456
+SELECT DATE_SUB(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 HOUR);-- 表示：2017-05-15 09:37:14.123456
+SELECT DATE_SUB(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 MINUTE);-- 表示：2017-05-15 10:36:14.123456
+SELECT DATE_SUB(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 SECOND);-- 表示：2017-05-15 10:37:13.123456
+SELECT DATE_SUB(&#39;2017-05-15 10:37:14.123456&#39;,INTERVAL 1 MICROSECOND);-- 表示：2017-05-15 10:37:14.123455
+ 
+-- 经特殊日期测试，DATE_SUB(date,INTERVAL expr type)可放心使用
+SELECT DATE_SUB(CURDATE(),INTERVAL 1 DAY);-- 前一天：2017-05-11
+SELECT DATE_SUB(CURDATE(),INTERVAL -1 DAY);-- 后一天：2017-05-13
+SELECT DATE_SUB(CURDATE(),INTERVAL 1 MONTH);-- 一个月前日期：2017-04-12
+SELECT DATE_SUB(CURDATE(),INTERVAL -1 MONTH);-- 一个月后日期：2017-06-12
+SELECT DATE_SUB(CURDATE(),INTERVAL 1 YEAR);-- 一年前日期：2016-05-12
+SELECT DATE_SUB(CURDATE(),INTERVAL -1 YEAR);-- 一年后日期：20178-06-12
+-- MySQL date_sub() 日期时间函数 和 date_add() 用法一致，并且可以用INTERNAL -1 xxx的形式互换使用；
+-- 另外，MySQL 中还有两个函数 subdate(), subtime()，建议，用 date_sub() 来替代。
+ 
+-- MySQL 另类日期函数：period_add(P,N), period_diff(P1,P2)
+-- 函数参数“P” 的格式为“YYYYMM” 或者 “YYMM”，第二个参数“N” 表示增加或减去 N month（月）。
+-- MySQL period_add(P,N)：日期加/减去N月。
+SELECT PERIOD_ADD(201705,2), PERIOD_ADD(201705,-2);-- 201707  20170503
+-- period_diff(P1,P2)：日期 P1-P2，返回 N 个月。
+SELECT PERIOD_DIFF(201706, 201703);-- 
+-- datediff(date1,date2)：两个日期相减 date1 - date2，返回天数
+SELECT DATEDIFF(&#39;2017-06-05&#39;,&#39;2017-05-29&#39;);-- 7
+-- TIMEDIFF(time1,time2)：两个日期相减 time1 - time2，返回 TIME 差值
+SELECT TIMEDIFF(&#39;2017-06-05 19:28:37&#39;, &#39;2017-06-05 17:00:00&#39;);-- 02:28:37
+ 
+ 
+-- MySQL日期转换函数
+SELECT TIME_TO_SEC(&#39;01:00:05&#39;); -- 3605
+SELECT SEC_TO_TIME(3605);-- 01:00:05
+ 
+-- MySQL （日期、天数）转换函数：to_days(date), from_days(days)
+SELECT TO_DAYS(&#39;0000-00-00&#39;); -- NULL 
+SELECT TO_DAYS(&#39;2017-06-05&#39;); -- 736850
+SELECT FROM_DAYS(0);           -- &#39;0000-00-00&#39; 
+SELECT FROM_DAYS(736850);      -- &#39;2017-06-05&#39;
+ 
+-- MySQL Str to Date （字符串转换为日期）函数：str_to_date(str, format)
+ 
+SELECT STR_TO_DATE(&#39;06.05.2017 19:40:30&#39;, &#39;%m.%d.%Y %H:%i:%s&#39;);-- 2017-06-05 19:40:30
+SELECT STR_TO_DATE(&#39;06/05/2017&#39;, &#39;%m/%d/%Y&#39;);                  -- 2017-06-05
+SELECT STR_TO_DATE(&#39;2017/12/3&#39;,&#39;%Y/%m/%d&#39;)		       -- 2017-12-03
+SELECT STR_TO_DATE(&#39;20:09:30&#39;, &#39;%h:%i:%s&#39;)		       -- NULL(超过12时的小时用小写h，得到的结果为NULL)
+ 
+-- 日期时间格式化
+SELECT DATE_FORMAT(&#39;2017-05-12 17:03:51&#39;, &#39;%Y年%m月%d日 %H时%i分%s秒&#39;);-- 2017年05月12日 17时03分51秒(具体需要什么格式的数据根据实际情况来;小写h为12小时制;)
+SELECT TIME_FORMAT(&#39;2017-05-12 17:03:51&#39;, &#39;%Y年%m月%d日 %H时%i分%s秒&#39;);-- 0000年00月00日 17时03分51秒(time_format()只能用于时间的格式化)
+-- STR_TO_DATE()和DATE_FORMATE()为互逆操作
+ 
+-- MySQL 获得国家地区时间格式函数：get_format()
+-- MySQL get_format() 语法：get_format(date|time|datetime, &#39;eur&#39;|&#39;usa&#39;|&#39;jis&#39;|&#39;iso&#39;|&#39;internal&#39;
+-- MySQL get_format() 用法的全部示例：
+SELECT GET_FORMAT(DATE,&#39;usa&#39;);   	-- &#39;%m.%d.%Y&#39; 
+SELECT GET_FORMAT(DATE,&#39;jis&#39;);   	-- &#39;%Y-%m-%d&#39; 
+SELECT GET_FORMAT(DATE,&#39;iso&#39;);   	-- &#39;%Y-%m-%d&#39; 
+SELECT GET_FORMAT(DATE,&#39;eur&#39;);   	-- &#39;%d.%m.%Y&#39; 
+SELECT GET_FORMAT(DATE,&#39;internal&#39;);   	-- &#39;%Y%m%d&#39; 
+SELECT GET_FORMAT(DATETIME,&#39;usa&#39;);   	-- &#39;%Y-%m-%d %H.%i.%s&#39; 
+SELECT GET_FORMAT(DATETIME,&#39;jis&#39;);   	-- &#39;%Y-%m-%d %H:%i:%s&#39; 
+SELECT GET_FORMAT(DATETIME,&#39;iso&#39;);   	-- &#39;%Y-%m-%d %H:%i:%s&#39; 
+SELECT GET_FORMAT(DATETIME,&#39;eur&#39;);   	-- &#39;%Y-%m-%d %H.%i.%s&#39; 
+SELECT GET_FORMAT(DATETIME,&#39;internal&#39;); -- &#39;%Y%m%d%H%i%s&#39; 
+SELECT GET_FORMAT(TIME,&#39;usa&#39;);   	-- &#39;%h:%i:%s %p&#39; 
+SELECT GET_FORMAT(TIME,&#39;jis&#39;);   	-- &#39;%H:%i:%s&#39; 
+SELECT GET_FORMAT(TIME,&#39;iso&#39;);   	-- &#39;%H:%i:%s&#39; 
+SELECT GET_FORMAT(TIME,&#39;eur&#39;);   	-- &#39;%H.%i.%s&#39; 
+SELECT GET_FORMAT(TIME,&#39;internal&#39;);     -- &#39;%H%i%s&#39;
+ 
+ 
+-- MySQL 拼凑日期、时间函数：makdedate(year,dayofyear), maketime(hour,minute,second)
+SELECT MAKEDATE(2017,31);   -- &#39;2017-01-31&#39; 
+SELECT MAKEDATE(2017,32);   -- &#39;2017-02-01&#39;
+SELECT MAKETIME(19,52,35);  -- &#39;19:52:35&#39;
+ 
+-- MySQL 时区（timezone）转换函数：convert_tz(dt,from_tz,to_tz)
+SELECT CONVERT_TZ(&#39;2017-06-05 19:54:12&#39;, &#39;+08:00&#39;, &#39;+00:00&#39;); -- 2017-06-05 11:54:12
+ 
+ 
+-- MySQL （Unix 时间戳、日期）转换函数
+-- unix_timestamp(), unix_timestamp(date), from_unixtime(unix_timestamp), from_unixtime(unix_timestamp,format)
+-- 将具体时间时间转为timestamp
+SELECT UNIX_TIMESTAMP();-- 当前时间的时间戳：1494815779
+SELECT UNIX_TIMESTAMP(&#39;2017-05-15&#39;);-- 指定日期的时间戳：1494777600
+SELECT UNIX_TIMESTAMP(&#39;2017-05-15 10:37:14&#39;);-- 指定日期时间的时间戳：1494815834
+ 
+-- 将时间戳转为具体时间
+SELECT FROM_UNIXTIME(1494815834);-- 2017-05-15 10:37:14
+SELECT FROM_UNIXTIME(1494815834, &#39;%Y年%m月%d日 %h时%分:%s秒&#39;);-- 获取时间戳对应的格式化日期时间
+ 
+-- MySQL 时间戳（timestamp）转换、增、减函数
+SELECT TIMESTAMP(&#39;2017-05-15&#39;);-- 2017-05-15 00:00:00
+SELECT TIMESTAMP(&#39;2017-05-15 08:12:25&#39;, &#39;01:01:01&#39;);-- 2017-05-15 09:13:26
+SELECT DATE_ADD(&#39;2017-05-15 08:12:25&#39;, INTERVAL 1 DAY);-- 2017-05-16 08:12:25
+SELECT TIMESTAMPADD(DAY, 1, &#39;2017-05-15 08:12:25&#39;);-- 2017-05-16 08:12:25; MySQL timestampadd() 函数类似于 date_add()。
+ 
+SELECT TIMESTAMPDIFF(YEAR, &#39;2017-06-01&#39;, &#39;2016-05-15&#39;);-- -1
+SELECT TIMESTAMPDIFF(MONTH, &#39;2017-06-01&#39;, &#39;2016-06-15&#39;);-- -11
+SELECT TIMESTAMPDIFF(DAY, &#39;2017-06-01&#39;, &#39;2016-06-15&#39;);-- -351
+SELECT TIMESTAMPDIFF(HOUR, &#39;2017-06-01 08:12:25&#39;, &#39;2016-06-15 00:00:00&#39;);-- -8432
+SELECT TIMESTAMPDIFF(MINUTE, &#39;2017-06-01 08:12:25&#39;, &#39;2016-06-15 00:00:00&#39;);-- -505932
+SELECT TIMESTAMPDIFF(SECOND, &#39;2017-06-01 08:12:25&#39;, &#39;2016-06-15 00:00:00&#39;);-- -30355945
+</code></pre>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/hu1010037197/article/details/115391335">https://blog.csdn.net/hu1010037197/article/details/115391335</a></p>
 <h3 id="MySQL-TIMESTAMPDIFF函数简介"><a href="#MySQL-TIMESTAMPDIFF函数简介" class="headerlink" title="MySQL TIMESTAMPDIFF函数简介"></a>MySQL TIMESTAMPDIFF函数简介</h3><p>下面说明了<code>TIMESTAMPDIFF</code>函数的语法。</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">TIMESTAMPDIFF(unit,<span class="keyword">begin</span>,<span class="keyword">end</span>);</span><br></pre></td></tr></table></figure>
-
+<pre><code class="sql">TIMESTAMPDIFF(unit,begin,end);
+</code></pre>
 <p><code>TIMESTAMPDIFF</code>函数返回<code>begin-end</code>的差值，其中<code>begin</code>和<code>end</code>是<a target="_blank" rel="noopener" href="http://www.yiibai.com/mysql/date.html">DATE</a>或<a target="_blank" rel="noopener" href="http://www.yiibai.com/mysql/datetime.html">DATETIME</a>表达式。</p>
 <p><code>TIMESTAMPDIFF</code>函数允许其参数具有混合类型，例如，<code>begin</code>是<code>DATE</code>值，<code>end</code>可以是<code>DATETIME</code>值。 如果使用<code>DATE</code>值，则<code>TIMESTAMPDIFF</code>函数将其视为时间部分为<code>“00:00:00”</code>的<code>DATETIME</code>值。</p>
 <p><code>unit</code>参数是确定(<code>end-begin</code>)的结果的单位，表示为整数。 以下是有效单位：</p>
@@ -446,25 +558,46 @@
 <li>YEAR&#x3D;</li>
 </ul>
 <h2 id="文本函数"><a href="#文本函数" class="headerlink" title="文本函数"></a>文本函数</h2><p><img src="/MySQL.assets/4EF7B5DAE69AD54DE81C49D58020D7A4.png" alt="图片说明"></p>
-<h2 id="SQL窗口函数"><a href="#SQL窗口函数" class="headerlink" title="SQL窗口函数"></a>SQL窗口函数</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="operator">&lt;</span>窗口函数<span class="operator">&gt;</span> <span class="keyword">over</span> (<span class="keyword">partition</span> <span class="keyword">by</span> <span class="operator">&lt;</span>用于分组的列名<span class="operator">&gt;</span> <span class="keyword">order</span> <span class="keyword">by</span> <span class="operator">&lt;</span>用于排序的列名<span class="operator">&gt;</span>)</span><br></pre></td></tr></table></figure>
-
+<h2 id="SQL窗口函数"><a href="#SQL窗口函数" class="headerlink" title="SQL窗口函数"></a>SQL窗口函数</h2><pre><code class="sql">&lt;窗口函数&gt; over (partition by &lt;用于分组的列名&gt; order by &lt;用于排序的列名&gt;)
+</code></pre>
 <h2 id="with…as"><a href="#with…as" class="headerlink" title="with…as"></a>with…as</h2><p>简化子查询的书写（创建临时表）</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; <span class="built_in">select</span> * from account <span class="built_in">where</span> money = <span class="number">5000</span>;</span><br><span class="line">+<span class="literal">-----------</span>+<span class="literal">----------</span>+<span class="literal">---------</span>+</span><br><span class="line">| accountId | name     | money   |</span><br><span class="line">+<span class="literal">-----------</span>+<span class="literal">----------</span>+<span class="literal">---------</span>+</span><br><span class="line">|         <span class="number">1</span> | tom      | <span class="number">5000.00</span> |</span><br><span class="line">|         <span class="number">2</span> | lucy     | <span class="number">5000.00</span> |</span><br><span class="line">|         <span class="number">3</span> | zhangsan | <span class="number">5000.00</span> |</span><br><span class="line">+<span class="literal">-----------</span>+<span class="literal">----------</span>+<span class="literal">---------</span>+</span><br><span class="line"><span class="number">3</span> rows <span class="keyword">in</span> <span class="built_in">set</span> (<span class="number">0.00</span> sec)</span><br><span class="line"></span><br><span class="line">mysql&gt; with t1 as (<span class="built_in">select</span> * from account <span class="built_in">where</span> money = <span class="number">5000</span>)</span><br><span class="line">    -&gt; <span class="built_in">select</span> * from t1 <span class="built_in">where</span> accountId = <span class="number">1</span>;</span><br><span class="line">+<span class="literal">-----------</span>+<span class="literal">------</span>+<span class="literal">---------</span>+</span><br><span class="line">| accountId | name | money   |</span><br><span class="line">+<span class="literal">-----------</span>+<span class="literal">------</span>+<span class="literal">---------</span>+</span><br><span class="line">|         <span class="number">1</span> | tom  | <span class="number">5000.00</span> |</span><br><span class="line">+<span class="literal">-----------</span>+<span class="literal">------</span>+<span class="literal">---------</span>+</span><br><span class="line"><span class="number">1</span> row <span class="keyword">in</span> <span class="built_in">set</span> (<span class="number">0.00</span> sec)</span><br></pre></td></tr></table></figure>
+<pre><code class="powershell">mysql&gt; select * from account where money = 5000;
++-----------+----------+---------+
+| accountId | name     | money   |
++-----------+----------+---------+
+|         1 | tom      | 5000.00 |
+|         2 | lucy     | 5000.00 |
+|         3 | zhangsan | 5000.00 |
++-----------+----------+---------+
+3 rows in set (0.00 sec)
 
-
-
-<h1 id="ALTER-表"><a href="#ALTER-表" class="headerlink" title="ALTER 表"></a>ALTER 表</h1><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> user_info <span class="keyword">add</span> school <span class="type">varchar</span>(<span class="number">15</span>) after level;</span><br><span class="line"># 增加列在某列之后</span><br><span class="line"># <span class="keyword">alter</span>` `<span class="keyword">table</span>` `增加的表格 ``<span class="keyword">add</span>` `增加列的名称 数据类型 位置(``after` `level` `在``level` `之后)</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> user_info change job profession <span class="type">varchar</span>(<span class="number">10</span>);</span><br><span class="line"># 更换列的名称及数据类型</span><br><span class="line"># <span class="keyword">alter</span> <span class="keyword">table</span> user_info change 原列名 修改列名 修改数据类型</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> user_info modify achievement <span class="type">int</span>(<span class="number">11</span>) <span class="keyword">default</span> <span class="number">0</span>;</span><br><span class="line"># 更改数据类型与约束</span><br><span class="line"># <span class="keyword">alter</span> <span class="keyword">table</span> 表名 modify 修改列名称 数据类型 默认值等</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 删除列</span><br><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> 表名 <span class="keyword">drop</span> <span class="keyword">column</span> 列名；</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 修改表名</span><br><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> 表名 rename 新表名；</span><br></pre></td></tr></table></figure>
-
-
-
+mysql&gt; with t1 as (select * from account where money = 5000)
+    -&gt; select * from t1 where accountId = 1;
++-----------+------+---------+
+| accountId | name | money   |
++-----------+------+---------+
+|         1 | tom  | 5000.00 |
++-----------+------+---------+
+1 row in set (0.00 sec)
+</code></pre>
+<h1 id="ALTER-表"><a href="#ALTER-表" class="headerlink" title="ALTER 表"></a>ALTER 表</h1><pre><code class="sql">alter table user_info add school varchar(15) after level;
+# 增加列在某列之后
+# alter` `table` `增加的表格 ``add` `增加列的名称 数据类型 位置(``after` `level` `在``level` `之后)
+</code></pre>
+<pre><code class="sql">alter table user_info change job profession varchar(10);
+# 更换列的名称及数据类型
+# alter table user_info change 原列名 修改列名 修改数据类型
+</code></pre>
+<pre><code class="sql">alter table user_info modify achievement int(11) default 0;
+# 更改数据类型与约束
+# alter table 表名 modify 修改列名称 数据类型 默认值等
+</code></pre>
+<pre><code class="sql"># 删除列
+alter table 表名 drop column 列名；
+</code></pre>
+<pre><code class="sql"># 修改表名
+alter table 表名 rename 新表名；
+</code></pre>
 <h1 id="MySQL字符编码"><a href="#MySQL字符编码" class="headerlink" title="MySQL字符编码"></a>MySQL字符编码</h1><p><img src="/MySQL.assets/image-20220212170233406.png" alt="image-20220212170233406"></p>
 <p>MySQL 字符编码集中有两套 UTF-8 编码实现：</p>
 <ul>
@@ -595,41 +728,80 @@
 </ol>
 <pre><code>1.   开启日志
 
-     <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">（1）设置开启：SET GLOBAL slow_query_log = 1;　　　<span class="comment">#默认未开启，开启会影响性能，mysql重启会失效</span></span><br><span class="line">（2）查看是否开启：SHOW VARIABLES LIKE <span class="string">&#x27;%slow_query_log%&#x27;</span>;</span><br><span class="line">（3）设置阈值：SET GLOBAL long_query_time=3;</span><br><span class="line">（4）查看阈值：SHOW 【GLOBAL】 VARIABLES LIKE <span class="string">&#x27;long_query_time%&#x27;</span>;　　<span class="comment">#重连或新开一个会话才能看到修改值</span></span><br><span class="line">（5）通过修改配置文件my.cnf永久生效，在[mysqld]下配置：</span><br><span class="line">[mysqld]</span><br><span class="line">slow_query_log = 1;　　<span class="comment">#开启</span></span><br><span class="line">slow_query_log_file=/var/lib/mysql/atguigu-slow.log　　　<span class="comment">#慢日志地址，缺省文件名host_name-slow.log</span></span><br><span class="line"><span class="comment"># windows 所在位置 C:/ProgramData/MySQL/MySQL Server 8.0/Data</span></span><br><span class="line">long_query_time=3;　　  <span class="comment">#运行时间超过该值的SQL会被记录，默认值&gt;10</span></span><br><span class="line">log_output=FILE　</span><br></pre></td></tr></table></figure>
+     ```bash
+     （1）设置开启：SET GLOBAL slow_query_log = 1;　　　#默认未开启，开启会影响性能，mysql重启会失效
+     （2）查看是否开启：SHOW VARIABLES LIKE &#39;%slow_query_log%&#39;;
+     （3）设置阈值：SET GLOBAL long_query_time=3;
+     （4）查看阈值：SHOW 【GLOBAL】 VARIABLES LIKE &#39;long_query_time%&#39;;　　#重连或新开一个会话才能看到修改值
+     （5）通过修改配置文件my.cnf永久生效，在[mysqld]下配置：
+     [mysqld]
+     slow_query_log = 1;　　#开启
+     slow_query_log_file=/var/lib/mysql/atguigu-slow.log　　　#慢日志地址，缺省文件名host_name-slow.log
+     # windows 所在位置 C:/ProgramData/MySQL/MySQL Server 8.0/Data
+     long_query_time=3;　　  #运行时间超过该值的SQL会被记录，默认值&gt;10
+     log_output=FILE　
+     ```
 
 2.   查看日志
 
-     <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">查看慢查询日志记录数：SHOW GLOBAL STATUS LIKE <span class="string">&#x27;%Slow_queries%&#x27;</span>;</span><br></pre></td></tr></table></figure>
+     ```bash
+     查看慢查询日志记录数：SHOW GLOBAL STATUS LIKE &#39;%Slow_queries%&#39;;
+     ```
 
 3.   搭建分析工具 mysqldumpslow
 </code></pre>
 <ol start="2">
 <li><p>通过<code>explain</code>对慢SQL分析（重点）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 例子</span><br><span class="line">explain select sleep(4);</span><br><span class="line"># 之后mysql会将SQL的执行情况展示出来</span><br></pre></td></tr></table></figure>
-
+<pre><code class="mysql"># 例子
+explain select sleep(4);
+# 之后mysql会将SQL的执行情况展示出来
+</code></pre>
 <p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/zjxiang/p/9160564.html">https://www.cnblogs.com/zjxiang/p/9160564.html</a></p>
 </li>
 <li><p><code>show profile</code>查询SQL在Mysql服务器里的执行细节和<strong>生命周期情况</strong>（重点）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"># 查询是否支持</span><br><span class="line">select @@have_profiling;</span><br><span class="line"># 查询是否开启</span><br><span class="line">select @@profiling;</span><br><span class="line"># 只开启当前会话</span><br><span class="line">set profiling=1; </span><br><span class="line"># 查看指令执行耗时</span><br><span class="line">show profiles;</span><br><span class="line"># 查看指令分步骤耗时</span><br><span class="line">show profile for query query_id;</span><br><span class="line"># TIP:</span><br><span class="line"># 	Sending data状态表示MySQL线程开始访问数据行并把结果返回给客户端，由于在Sending data状态需要读写磁盘，故一般时间最长</span><br><span class="line"># 查看指令资源消耗</span><br><span class="line">show profile all for query query_id;</span><br><span class="line"># trace  查看优化器的执行计划</span><br><span class="line">set optimizer_trace=&quot;enabled=on&quot;  # 设置trace打开</span><br><span class="line">end_markers_in_json=on  #  设置格式为json</span><br><span class="line">set optimizer_trace_max_mem_size=10000  # 设置最大内存数</span><br></pre></td></tr></table></figure>
+<pre><code class="mysql"># 查询是否支持
+select @@have_profiling;
+# 查询是否开启
+select @@profiling;
+# 只开启当前会话
+set profiling=1; 
+# 查看指令执行耗时
+show profiles;
+# 查看指令分步骤耗时
+show profile for query query_id;
+# TIP:
+# 	Sending data状态表示MySQL线程开始访问数据行并把结果返回给客户端，由于在Sending data状态需要读写磁盘，故一般时间最长
+# 查看指令资源消耗
+show profile all for query query_id;
+# trace  查看优化器的执行计划
+set optimizer_trace=&quot;enabled=on&quot;  # 设置trace打开
+end_markers_in_json=on  #  设置格式为json
+set optimizer_trace_max_mem_size=10000  # 设置最大内存数
+</code></pre>
 </li>
 <li><p>开启全局日志（另一种日志）</p>
 <p>只在测试环境用，别在生产环境用，会记录所有使用过的SQL</p>
 <p>开启：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">开启：会将sql记录到mysql库的general_log表</span><br><span class="line"><span class="built_in">set</span> global general_log=1;</span><br><span class="line"><span class="built_in">set</span> global log_output=<span class="string">&#x27;TABLE&#x27;</span>;</span><br><span class="line">配置文件的方式：</span><br><span class="line">在my.cnf中配置</span><br><span class="line">general_log=1    <span class="comment">#开启</span></span><br><span class="line">general_log_file=/path/logfile    <span class="comment">#记录日志文件的路径</span></span><br><span class="line">log_output=FILE    <span class="comment">#输出格式</span></span><br></pre></td></tr></table></figure>
-
+<pre><code class="bash">开启：会将sql记录到mysql库的general_log表
+set global general_log=1;
+set global log_output=&#39;TABLE&#39;;
+配置文件的方式：
+在my.cnf中配置
+general_log=1    #开启
+general_log_file=/path/logfile    #记录日志文件的路径
+log_output=FILE    #输出格式
+</code></pre>
 <p>查看</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> mysql.general_log;</span><br></pre></td></tr></table></figure></li>
+<pre><code class="sql">select * from mysql.general_log;
+</code></pre>
+</li>
 </ol>
 
       
-       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jaytp@qq.com </span>
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论. </span>
     </div>
 </article>
 
-
-<p>
-    <a  class="dashang" onclick="dashangToggle()">💰</a>
-</p>
 
 
 
@@ -644,35 +816,17 @@
     </div>
     <div class="copyright">
         <p class="footer-entry">
-    ©2016-2020 Yelog
+    ©2023-2024 Vocal
 </p>
 <p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
 
     </div>
     <div class="full-toc">
-        <button class="full" data-title="Toggle full screen shortcut key s"><span class="min "></span></button>
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
 <a class="" id="rocket" ></a>
 
     </div>
 </div>
-
-<div class="hide_box" onclick="dashangToggle()"></div>
-<div class="shang_box">
-    <a class="shang_close"  onclick="dashangToggle()">×</a>
-    <div class="shang_tit">
-        <p>Help us with donation</p>
-    </div>
-    <div class="shang_payimg">
-        <div class="pay_img">
-            <img src="/img/alipay.jpg" class="alipay" title="扫码支持">
-            <img src="/img/weixin.jpg" class="weixin" title="扫码支持">
-        </div>
-    </div>
-    <div class="shang_payselect">
-        <span><label><input type="radio" name="pay" checked value="alipay">alipay</label></span><span><label><input type="radio" name="pay" value="weixin">weixin</label></span>
-    </div>
-</div>
-
 
 </body>
 <script src="/js/jquery.pjax.js?v=1.1.0" ></script>
@@ -687,14 +841,6 @@
         
 
         /*渲染打赏样式*/
-        
-        $("input[name=pay]").on("click", function () {
-            if($("input[name=pay]:checked").val()=="weixin"){
-                $(".shang_box .shang_payimg .pay_img").addClass("weixin_img");
-            } else {
-                $(".shang_box .shang_payimg .pay_img").removeClass("weixin_img");
-            }
-        })
         
 
         /*高亮代码块行号*/
@@ -713,11 +859,6 @@
     }
 
     /*打赏页面隐藏与展示*/
-    
-    function dashangToggle() {
-        $(".shang_box").fadeToggle();
-        $(".hide_box").fadeToggle();
-    }
     
 
 </script>
@@ -809,6 +950,19 @@
 
 
 
+
+<div class="mobile-menus-out" >
+
+</div>
+<div class="mobile-menus">
+    
+    
+    <a class="dynamic-menu " target="_self"   href="http://yelog.org/">叶落阁</a>
+    
+    
+    <a class="dynamic-menu " target="_blank"  href="https://github.com/yelog">github</a>
+    
+</div>
 
 
 </html>
